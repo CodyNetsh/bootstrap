@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>Booking Form HTML Template</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+
+	
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+</head>
+
+<body>
+
+		<nav class="navbar navbar-dark bg-dark">
+    
+				<div >
+				  <table>
+					<ul class="navbar-nav mr-auto">
+					 
+					  <tr> 
+						<th>
+					  <li class="nav-item active">
+						  <a class="nav-link" href="b">Home <span class="sr-only">(current)</span></a>
+						</li>
+					  </th>
+					  <th>
+						  <li></li>
+					  </th>
+					  <th>
+						<li class="nav-item">
+						  <a class="nav-link" href="rtype">Bookings</a>
+						</li>
+					  </th>
+					  <th>
+						  <li></li>
+					  </th>
+					  <th>
+						<li class="nav-item">
+							<a class="nav-link" href="gallery">Gallery</a>
+						  </li>
+						</th>
+						<th>
+						  <li></li>
+						</th>
+						<th>
+						  <li class="nav-item">
+							  <a class="nav-link" href="contact">Contact</a>
+							</li>
+						  </th>
+						</tr>
+					  </ul>
+					</table>
+					  </div>
+					  </nav>
+						  
+
+	<div id="booking" class="section">
+		<div class="section-center">
+			<div class="container">
+				<div class="row">
+					<div class="booking-table">
+						<div class="table-header">
+							<h1>Book your Room</h1>
+						</div>
+						<table>
+								<div class="row">					
+								<div class="table-group">
+										<select class="table-control" [(ngModel)]="title" placeholder="Title" required>
+												<option value="" selected hidden>Title</option>
+												<option>Mr</option>
+												<option>Mrs</option>
+												<option>Miss</option>
+											</select>	
+											<span class="select-arrow"></span>
+										    <span class="table-label">Title</span>							
+											</div>
+											
+											<div class="col-md-5">
+									<div class="table-group">
+											<input class="table-control" type="text"  [(ngModel)]="FirstName" placeholder="First Name...">									  
+										  </div>
+										</div>
+										  <div class="col-md-5">
+									<div class="table-group">									
+										<input class="table-control" type="text"  [(ngModel)]="LastName" placeholder="Last Name...">									  
+									  </div>
+									</div>
+									</div>
+									<div class="row">
+											<div class="col-md-6">
+									  <div class="table-group">
+										  <input class="table-control" type="text"  [(ngModel)]="Id" placeholder="ID Number......">
+										</div>
+									</div>
+										<div class="col-md-6">
+										<div class="table-group">
+												<input class="table-control" type="text"  [(ngModel)]="Age" placeholder="Age......">
+											  </div>
+										</div>
+									</div>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="table-group">
+										<input class="table-control" type="date" [(ngModel)]="dateIn" required>
+										<span class="table-label">Check In</span>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="table-group">
+										<input class="table-control" type="date" [(ngModel)]="dateOut" required>
+										<span class="table-label">Check out</span>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4">
+									<div class="table-group">
+										<select class="table-control" [(ngModel)]="roomtype" required>
+											<option value="" selected hidden>Rooms type</option>
+											<option>Single room</option>
+											<option>Twin bed room</option>
+											<option>Triple bed room</option>
+											<option>Kids bed room</option>
+										</select>
+										<span class="select-arrow"></span>
+										<span class="table-label">Rooms</span>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="table-group">
+										<select class="table-control" [(ngModel)]="Adult" required>
+											<option value="" selected hidden>Nr of adults</option>
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+											<option>5</option>
+										</select>
+										<span class="select-arrow"></span>
+										<span class="table-label">Adults</span>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="table-group">
+										<select class="table-control" [(ngModel)]="kids" required>
+											<option value="" selected hidden>Nr of children</option>
+											<option>0</option>
+											<option>1</option>
+											<option>2</option>
+										</select>
+										<span class="select-arrow"></span>
+										<span class="table-label">Children</span>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="table-group">
+										<input class="table-control" type="email" [(ngModel)]="email" placeholder="Enter your Email">
+										<span class="table-label">Email</span>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="table-group">
+										<input class="table-control" type="tel" [(ngModel)]="tel" placeholder="Enter you Phone">
+										<span class="table-label">Phone</span>
+									</div>
+								</div>
+							</div>
+							<div class="table-btn">
+								<button class="submit-btn"(click)="onPay()">Book Now</button>
+							</div>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>

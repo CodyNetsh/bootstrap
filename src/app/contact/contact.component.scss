@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. Fonts
+2. Body and some general stuff
+3. Header
+4. Menu
+5. Home
+6. Features
+7. Gallery
+8. About
+9. Testimonials
+10. Booking
+11. Blog
+12. Footer
+
+
+******************************/
+
+/***********
+1. Fonts
+***********/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900');
+
+/*********************************
+12. Footer
+*********************************/
+
+.footer
+{
+	
+	padding-top: 81px;
+}
+.footer_content
+{
+	padding-bottom: 52px;
+}
+.footer_logo
+{
+	display: inline-block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.footer_logo > div:first-of-type
+{
+	width: 235px;
+	height: 74px;
+	border: solid 3px #0e0404;
+	font-size: 43.32px;
+	font-weight: 600;
+	color: #0c0101;
+	line-height: 68px;
+}
+.footer_logo > div:last-of-type
+{
+	font-size: 16px;
+	font-weight: 600;
+	color: #0a0202;
+	line-height: 0.75;
+	margin-top: 15px;
+}
+.footer_logo a
+{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+.footer_row
+{
+	margin-top: 74px;
+}
+.footer_title
+{
+	font-size: 18px;
+	font-weight: 700;
+	color: #0c0909;
+	line-height: 1.2;
+}
+.footer_list
+{
+	margin-top: 9px;
+}
+.footer_list ul li
+{
+	font-size: 15px;
+	font-weight: 500;
+	color: #d8d3d3;
+	line-height: 2;
+}
+.newsletter_container
+{
+	margin-top: 8px;
+}
+.newsletter_form
+{
+	display: block;
+	position: relative;
+}
+.newsletter_input
+{
+	width: 100%;
+	height: 64px;
+	background: #ffffff;
+	border: none;
+	border-bottom: solid 2px #0a0101;
+	outline: none;
+	font-size: 15px;
+	font-weight: 600;
+	color: #070202;
+}
+.newsletter_input::-webkit-input-placeholder
+{
+	font-size: 15px !important;
+	font-weight: 500 !important;
+	color: #070202 !important;
+}
+.newsletter_input:-moz-placeholder
+{
+	font-size: 15px !important;
+	font-weight: 500 !important;
+	color: #fdfbfb !important;
+}
+.newsletter_input::-moz-placeholder
+{
+	font-size: 15px !important;
+	font-weight: 500 !important;
+	color: #fdfbfb !important;
+} 
+.newsletter_input:-ms-input-placeholder
+{ 
+	font-size: 15px !important;
+	font-weight: 500 !important;
+	color: #fdfbfb !important;
+}
+.newsletter_input::input-placeholder
+{
+	font-size: 15px !important;
+	font-weight: 500 !important;
+	color: #fdfbfb !important;
+}
+.newsletter_button
+{
+	width: 152px;
+	height: 54px;
+	background: #ffa37b;
+	margin-top: 23px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 600;
+	color: #ffffff;
+}
+.certificates
+{
+	padding-left: 12px;
+	padding-top: 10px;
+}
+.cert
+{
+	margin-bottom: 30px;
+}
+.copyright
+{
+	width: 100%;
+	height: 33px;
+	background: #ffffff;
+	text-align: center;
+	line-height: 33px;
+	font-size: 15px;
+	font-weight: 500;
+	color: #6d6d6d;
+}
+@import url('https://fonts.googleapis.com/css?family=Mukta');
+body {
+    
+    position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	padding: 60px;
+	overflow: hidden;
+	background-image: url('../rtype/background.jpg');
+	background-size: cover;
+}

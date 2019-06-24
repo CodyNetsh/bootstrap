@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta');
+
+body {
+	position: absolute;
+	
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	padding: 60px;
+	overflow: hidden;
+	background-image: url('../rtype/background.jpg');
+	background-size: cover;
+	
+}
+.container{
+    position: absolute;
+	max-width: 300px;
+    max-height: 450px;
+    -webkit-text-fill-color: aliceblue;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    
+    }
+    .container_1{
+      
+        -webkit-text-fill-color: aliceblue;
+       
+       
+        background: rgba(0, 0, 0, 0.6);
+        position: relative;
+	max-width: 800px;
+	max-height: 1000px;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	padding: 60px;
+	border-radius: 10px;
+	z-index: 50;
+    }
+    .submit-button {
+        margin-top: 10px;
+      }
